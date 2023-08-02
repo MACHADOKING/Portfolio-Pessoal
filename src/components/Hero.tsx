@@ -1,4 +1,5 @@
 import { HiDownload } from "react-icons/hi";
+import img from "../assets/JM_fundo_gradiente.png";
 
 export function Hero() {
   return (
@@ -44,7 +45,9 @@ export function Hero() {
             </a>
           </div>
         </div>
-        <div className="basis-1/2"></div>
+        <div className="basis-1/2">
+          <img src={img} />
+        </div>
       </div>
       <div className="absolute left-0 -mt-2 h-3 w-1/4 rounded-r-full bg-gradient-to-r from-blue-700 to blue-600 md:w-1/3" />
     </section>

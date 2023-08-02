@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   return (
-    <main>
+    <main className="bg-neutral-100">
       <Hero />
       <About />
       <Services />
