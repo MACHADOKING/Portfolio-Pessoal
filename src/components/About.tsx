@@ -1,5 +1,3 @@
-import img from "../assets/JM_fundo_gradiente.png";
-
 export function About() {
   return (
     <section className="container mx-auto my-4 max-w-5x1 p-4">
