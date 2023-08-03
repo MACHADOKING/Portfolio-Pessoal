@@ -27,13 +27,15 @@ export function Testimonials() {
         <figcaption className="flex items-center justify-center gap-2">
           <img
             className="h-6 w-6 rounded-full"
-            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-            alt="João da Silva"
+            src="https://cdn.discordapp.com/attachments/1098362460458717186/1136761759257067630/GuilhermeMktAnimado.jpg"
+            alt="Guilherme Terceiro"
           />
           <div className="flex items-center divide-x-2 divide-gray-200">
-            <div className="pr-3 font-medium text-gray-900">João da Silva</div>
+            <div className="pr-3 font-medium text-gray-900">
+              Guilherme Terceiro
+            </div>
             <div className="pl-3 text-sm font-light text-gray-500">
-              Empresa.com
+              <a href="https://marketinganimado.com.br">Marketing Animado</a>
             </div>
           </div>
         </figcaption>

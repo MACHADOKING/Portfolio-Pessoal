@@ -17,9 +17,7 @@ export function About() {
 
       <div className="mx-auto mt-20 max-w-lg">
         <div className="relative w-full rounded-lg bg-blue-100 p-4 ps-20 md:h-64 md:ps-48">
-          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-gradient-to-r from-gray-900 to-blue-900 bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56">
-            <img className="object-fill" src={img} />
-          </div>
+          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url(https://cdn.discordapp.com/attachments/1098362460458717186/1136741674236784680/Eu_-_Fundo_Gradiente.png)] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
           <div className="relative h-full w-full rounded-lg bg-gray-50 p-4">
             <p className="font-handwriting text-xl font-bold">Olá</p>
             <p>

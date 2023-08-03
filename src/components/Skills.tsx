@@ -4,10 +4,28 @@ import { HiCodeBracketSquare } from "react-icons/hi2";
 export function Skills() {
   const educations = [
     {
-      name: "Bacharelado Engenharia de Software - Em andamento | Unicesumar",
+      name: "Bacharelado Engenharia de Software | Unicesumar - Em andamento",
     },
     {
       name: "Curso de Fullstack Developer | Danki Code",
+    },
+    {
+      name: "Javascript do básico ao avançado (c/ Node.js e projetos)",
+    },
+    {
+      name: "React do Zero a Maestria (c/ hooks, router, API, Projetos) | Matheus Battisti Udemy",
+    },
+    {
+      name: "Curso de React.Js e Next.Js (Intermediário e Avançado) | Udemy - Iniciado",
+    },
+    {
+      name: "Node.js do Zero a Maestria com diversos Projetos | Matheus Battisti Udemy - Em andamento",
+    },
+    {
+      name: "TypeScript do básico ao avançado (c/ React, Express) | Matheus Battisti Udemy - Iniciado",
+    },
+    {
+      name: "React Native: Desenvolva APPs Nativas para Android e IOS | Cod3r Cursos Online Udemy - Iniciado",
     },
   ];
 
@@ -23,6 +41,11 @@ export function Skills() {
       level: 90,
     },
     {
+      name: "Typescript",
+      icon: "images/typescript.svg",
+      level: 35,
+    },
+    {
       name: "React.js",
       icon: "images/react.svg",
       level: 85,
@@ -31,6 +54,11 @@ export function Skills() {
       name: "Node.js",
       icon: "images/nodejs.svg",
       level: 65,
+    },
+    {
+      name: "Next.js",
+      icon: "images/nextjs.svg",
+      level: 15,
     },
   ];
 
