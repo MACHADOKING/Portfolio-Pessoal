@@ -8,7 +8,10 @@ export function Footer() {
         </p>
         <ul className="flex flex-nowrap gap-2">
           <li className="text-gray-500">
-            <img className="max-h-5" src="../images/Janetwork_logo.png" />
+            <img
+              className="max-h-5"
+              src="../public/images/Janetwork_logo.png"
+            />
           </li>
           <li>
             <a href="https://janetwork.com.br" target="_blank">

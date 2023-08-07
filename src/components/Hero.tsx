@@ -45,7 +45,7 @@ export function Hero() {
             </a>
           </div>
         </div>
-        <div className="basis-1/2">
+        <div className="basis-1/2 mt-1.5 sm:m-0">
           <img src={img} />
         </div>
       </div>

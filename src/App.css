@@ -29,3 +29,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #091127;
 }
+
+html,
+body {
+  overflow-x: hidden !important;
+}

@@ -55,7 +55,7 @@ export function About() {
                     <a
                       href="mailto:jsmacbusiness@gmail.com"
                       target="_blank"
-                      className="underline hover:text-blue-800 break-normal"
+                      className="underline hover:text-blue-800 break-all"
                     >
                       jsmacbusiness@gmail.com
                     </a>
