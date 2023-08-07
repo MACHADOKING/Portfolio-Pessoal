@@ -1,5 +1,5 @@
 import { HiDownload } from "react-icons/hi";
-import img from "../assets/JM_fundo_gradiente.png";
+import img from "../assets/JM_fundo_transparente.png";
 
 export function Hero() {
   return (

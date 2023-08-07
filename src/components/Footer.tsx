@@ -7,12 +7,13 @@ export function Footer() {
           reservados.
         </p>
         <ul className="flex flex-nowrap gap-2">
-          <li>
-            <a href="#">Termos de uso</a>
+          <li className="text-gray-500">
+            <img className="max-h-5" src="../images/Janetwork_logo.png" />
           </li>
-          <li className="text-gray-500">&middot;</li>
           <li>
-            <a href="#">Política de privacidade</a>
+            <a href="https://janetwork.com.br" target="_blank">
+              Feito por Janetwork.
+            </a>
           </li>
         </ul>
       </div>
