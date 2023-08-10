@@ -32,12 +32,17 @@ export function Hero() {
           </p>
 
           <div className="flex items-center justify-center md:justify-start gap-2">
-            <a href="#" className="underline font-bold text-white">
+            <a
+              href="https://wa.me/5511971572640"
+              target="_blank"
+              className="underline font-bold text-white"
+            >
               Fale Comigo
             </a>
             <span className="italic text-gray-500">ou</span>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1vCcofGEnRnFmgSvvgs54gFa2anatjqWf/view?usp=sharing"
+              target="_blank"
               className="button text-gray-600 hover:text-gray-900 flex items-center gap-2"
             >
               <HiDownload />

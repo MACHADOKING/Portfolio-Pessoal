@@ -10,7 +10,7 @@ export function Footer() {
           <li className="text-gray-500">
             <img
               className="max-h-5"
-              src="../public/images/Janetwork_logo.png"
+              src="../../public/images/Janetwork_logo.png"
             />
           </li>
           <li>
