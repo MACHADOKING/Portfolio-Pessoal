@@ -1,45 +1,51 @@
 import { HiArrowTopRightOnSquare } from "react-icons/hi2";
 
+import img from "../assets/Reactgram-Mockup.png";
+import secret from "../assets/Secretword-Mockup.png";
+import blog from "../assets/Miniblog-Mockup.png";
+import janetflix from "../assets/Janetflix-Mockup.png";
+import todolist from "../assets/Todolist-Mockup.png";
+
 export function Projects() {
   const projects = [
     {
-      title: "Projeto 1",
-      description: "Descrição do projeto 1",
-      image:
-        "https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1605&q=80",
-      link: "#",
+      title: "Reactgram",
+      description:
+        "App Fullstack - Uma 'réplica' do aplicativo Instagram, onde eu quis fazer as funcionalidades principais do app. | Feito em React e Nodejs",
+      image: `${img}`,
+      link: "https://reactgram-fullstack.vercel.app/",
       colSpan: "col-span-1",
     },
     {
-      title: "Projeto 2",
-      description: "Descrição do projeto 2",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYnNpdGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
+      title: "Secret Word",
+      description:
+        "Um jogo de adivinhar qual é a palavra, inserindo letra por letra com direito a apenas uma dica. | Feito em React",
+      image: `${secret}`,
+      link: "https://secret-word-silk.vercel.app/",
       colSpan: "col-span-1 md:col-span-2",
     },
     {
-      title: "Projeto 3",
-      description: "Descrição do projeto 3",
-      image:
-        "https://media.istockphoto.com/id/1305995602/photo/responsive-floating-responsive-design.jpg?b=1&s=170667a&w=0&k=20&c=uFqBz27v_B0UxcslnvZxd9c0D9eJAef7veRZf6b-v-A=",
-      link: "#",
+      title: "Mini-Blog",
+      description:
+        "Um website do estilo blog, com as funcionalidades de fazer posts e comentários. | Feito em React e Firebase",
+      image: `${blog}`,
+      link: "https://machadoking.github.io/mini-blog/",
       colSpan: "col-span-1",
     },
     {
-      title: "Projeto 4",
-      description: "Descrição do projeto 4",
-      image:
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
+      title: "Reactflix",
+      description:
+        "Um clone da página principal do Aplicativo Netflix, onde através de uma manipulação de API foi puxado dados como títulos, descrições, etc.. de filmes. | Feito em React",
+      image: `${janetflix}`,
+      link: "https://netflixclone-machadoking.vercel.app/",
       colSpan: "col-span-1",
     },
     {
-      title: "Projeto 5",
-      description: "Descrição do projeto 5",
-      image:
-        "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9iaWxlJTIwYXBwfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
+      title: "Lista de Tarefas",
+      description:
+        "Um app web de lista de tarefas feito em Vanilla Javascript, utilizando o localstorage para armazenar suas tasks.",
+      image: `${todolist}`,
+      link: "https://machadoking.github.io/To-do-list-js/",
       colSpan: "col-span-1",
     },
   ];
@@ -72,7 +78,7 @@ export function Projects() {
                   <h4 className="font-headline text-lg font-semibold">
                     {project.title}
                   </h4>
-                  <p className="mb-4 text-sm">{project.description}</p>
+                  <p className="mb-4 text-sm p-3">{project.description}</p>
                   <a href={project.link} target="_blank">
                     <HiArrowTopRightOnSquare className="h-6 w-6" />
                   </a>
