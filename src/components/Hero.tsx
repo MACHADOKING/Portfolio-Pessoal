@@ -41,7 +41,7 @@ export function Hero() {
             </a>
             <span className="italic text-gray-500">ou</span>
             <a
-              href="https://drive.google.com/file/d/1vCcofGEnRnFmgSvvgs54gFa2anatjqWf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1m-aVopY39pCNvjeKFwVahxK5oX2WnQMD/view?usp=sharing"
               target="_blank"
               className="button text-gray-600 hover:text-gray-900 flex items-center gap-2"
             >
